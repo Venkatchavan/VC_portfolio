@@ -31,7 +31,7 @@ def home():
         'github': 'github.com/Venkatchavan',
         'linkedin': 'linkedin.com/in/venkatchavan16',
         'google_scholar': 'scholar.google.com/citations?user=8dLDVkcAAAAJ&hl=en',
-        'profile_image': 'images/venkat-profile.jpg',
+        'profile_image': 'images/Chavan-profile.jpg',
         'bio': 'A Master\'s student in Big Data and Artificial Intelligence at SRH Berlin, with strong hands-on experience in cloud-based ETL pipelines, open-source LLMs, and their real-world applications. Experienced in structuring data on the Google Cloud Platform using tools like BigQuery and Looker Studio. Passionate about developing interpretable AI solutions, particularly for autonomous systems and biomedical domains, and currently researching multi-agent learning.',
         'skills': {
             'Programming Languages': ['Python', 'SQL', 'Java', 'TypeScript', 'Bash'],

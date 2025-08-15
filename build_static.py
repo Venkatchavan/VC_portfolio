@@ -87,6 +87,12 @@ def build_static_site():
         with open(os.path.join(dist_dir, 'chatbot.html'), 'w', encoding='utf-8') as f:
             content = response.get_data(as_text=True)
             f.write(fix_paths(content, is_project_page=False))
+        
+        # Build narrative nexus page
+        response = client.get('/narrative_nexus')
+        with open(os.path.join(dist_dir, 'narrative_nexus.html'), 'w', encoding='utf-8') as f:
+            content = response.get_data(as_text=True)
+            f.write(fix_paths(content, is_project_page=False))
     
     # Create .nojekyll file to prevent Jekyll processing
     with open(os.path.join(dist_dir, '.nojekyll'), 'w') as f:
